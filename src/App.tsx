@@ -7,13 +7,19 @@ function App() {
         <div className="App">
 
             <Todolist/>
+            <Todolist/>
+            <Todolist/>
         </div>
     );
 }
 
 function Todolist() {
 
-    return <div>TODOLIST</div>
+    return (
+        <div>
+            <h3>What to learn</h3>
+        </div>
+    )
 }
 
 export default App;
