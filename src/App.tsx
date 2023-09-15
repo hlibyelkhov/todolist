@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 
 function App() {
-    debugger
+
     return (
         <div className="App">
 
@@ -12,7 +12,7 @@ function App() {
 }
 
 function Todolist() {
-    debugger
+
     return <div>TODOLIST</div>
 }
 
