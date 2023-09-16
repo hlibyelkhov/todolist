@@ -6,7 +6,7 @@ import React from "react";
 //
 // sum(12, 14);
 
-type TaskType = {
+export type TaskType = {
     id: number
     title: string
     isDone: boolean
@@ -17,7 +17,7 @@ type PropsTitle = {
     tasks: Array<TaskType>
 }
 
-export function Todolist(props: PropsTitle){ // props =  { title: "What to learn" }
+export function Todolist(props: PropsTitle) { // props =  { title: "What to learn" }
 
     return (
         <div>
