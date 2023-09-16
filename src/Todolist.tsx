@@ -1,6 +1,12 @@
 import React from "react";
 
-export function Todolist() {
+// function sum(a:number, b:number {
+//     alert(a + b);
+// })
+//
+// sum(12, 14);
+
+export function Todolist(props: any){ // props =  { title: "What to learn" }
 
     return (
         <div>

@@ -7,8 +7,8 @@ function App() {
     return (
         <div className="App">
 
-            <Todolist/>
-            <Todolist/>
+            <Todolist title={"What to learn"}/>
+            <Todolist title={"Movies"}/>
 
             <input type="checkbox"/>
             <input type="date"/>
