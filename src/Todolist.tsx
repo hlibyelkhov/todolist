@@ -6,7 +6,11 @@ import React from "react";
 //
 // sum(12, 14);
 
-export function Todolist(props: any){ // props =  { title: "What to learn" }
+type PropsTitle = {
+    title: string
+}
+
+export function Todolist(props: PropsTitle){ // props =  { title: "What to learn" }
 
     return (
         <div>
