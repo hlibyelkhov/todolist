@@ -9,6 +9,7 @@ function App() {
 
             <Todolist title={"What to learn"}/>
             <Todolist title={"Movies"}/>
+            <Todolist title={"Songs"}/>
 
             <input type="checkbox"/>
             <input type="date"/>
