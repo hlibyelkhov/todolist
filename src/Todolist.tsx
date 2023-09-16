@@ -6,8 +6,15 @@ import React from "react";
 //
 // sum(12, 14);
 
+type TaskType = {
+    id: number
+    title: string
+    isDone: boolean
+}
+
 type PropsTitle = {
     title: string
+    tasks: Array<TaskType>
 }
 
 export function Todolist(props: PropsTitle){ // props =  { title: "What to learn" }
