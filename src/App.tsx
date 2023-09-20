@@ -7,6 +7,7 @@ function App() {
     let tasks1: Array<TaskType> = [
         { id: 1, title: "CSS", isDone: true },
         { id: 1, title: "JS", isDone: true },
+        { id: 1, title: "React", isDone: false },
         { id: 1, title: "React", isDone: false }
     ]
 
